@@ -66,8 +66,21 @@ coverage.xml
 
 # Distribution / packaging
 .Python
+build/
+dist/
 *.manifest
-.spec
+*.spec
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+__pycache__/
+*.egg
+*.egg-info/
+.eggs/
+MANIFEST
 
 # Jupyter Notebook
 .ipynb_checkpoints
