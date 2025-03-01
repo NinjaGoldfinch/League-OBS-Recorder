@@ -51,7 +51,7 @@ class LCUWebSocket:
                 self.websocket = await websockets.connect(
                     uri,
                     ssl=ssl_context,
-                    additional_headers={"Authorization": f"Basic {auth_token}"}
+                    extra_headers={"Authorization": f"Basic {auth_token}"}
                 )
                 if self._debug:
                     self.logger.debug("WebSocket connection established successfully")

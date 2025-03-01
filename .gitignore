@@ -67,7 +67,7 @@ coverage.xml
 # Distribution / packaging
 .Python
 *.manifest
-*.spec
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
