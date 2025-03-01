@@ -42,7 +42,9 @@ log/
 .settings/
 
 # Config files with sensitive data
-config.toml
+config.local.toml
+config.*.toml
+!config.template.toml
 *.ini
 *.conf
 *.cfg

@@ -1,9 +1,9 @@
 [obs]
 host = "localhost"
 port = 4455
-password = "OBS-Remote-Password"
+password = "your-obs-password-here"
 timeout = 3.0
-profile_name = "OBS-Profile-Name"
+profile_name = "your-profile-name"
 
 [logging]
 level = "INFO"

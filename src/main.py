@@ -12,8 +12,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description='LCU API Testing Tool')
     parser.add_argument(
         '--config',
-        default='config.toml',
-        help='Path to config file (default: config.toml)'
+        default='config.local.toml',
+        help='Path to config file (default: config.local.toml, falls back to config.template.toml)'
     )
     return parser.parse_args()
 
