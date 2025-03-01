@@ -1,0 +1,10 @@
+[obs]
+host = "localhost"
+port = 4455
+password = "OBS-Remote-Password"
+timeout = 3.0
+profile_name = "OBS-Profile-Name"
+
+[logging]
+level = "INFO"
+file_path = "lcu_events.log"
