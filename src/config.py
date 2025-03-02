@@ -9,14 +9,14 @@ class OBSConfig:
     """OBS WebSocket configuration settings"""
     host: str = "localhost"
     port: int = 4455
-    password: str = ""
+    password: str = None
     timeout: float = 3.0
     profile_name: str = "League of Legends"
 
 @dataclass
 class LoggingConfig:
     """Logging configuration settings"""
-    level: str = "DEBUG"
+    level: str = "INFO"
     file_path: Optional[str] = None
 
 @dataclass

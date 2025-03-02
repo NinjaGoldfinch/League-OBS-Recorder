@@ -88,3 +88,7 @@ MANIFEST
 # Project specific
 lcu_events.log
 *.cache
+
+# Custom files
+todo.txt
+build.bat
